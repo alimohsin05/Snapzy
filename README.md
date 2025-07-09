@@ -1,28 +1,36 @@
-# Brightcal 🌞
-**A Fun Project to Calculate Image Brightness**  
-📅 January 2025  
-🔗 [Live Website](https://brightnesscalculator.live)  
-🔗 [GitHub Repository](https://github.com/alimohsin05/BrightnessCalculator)
+# Snapzy 👻
+**A Desktop Clone of Snapchat**  
+📅 May 2024  
+🔗 [GitHub Repository](https://github.com/alimohsin05/Snapzy)  
+📽️ [Demo Video](#) <!-- Replace with actual video URL -->
 
-## 📸 Overview
-Brightcal is a simple and fun web app that calculates the average brightness of an uploaded image using vanilla HTML, CSS, and JavaScript. The project provides a quick way to analyze the visual brightness of pictures directly in your browser.
+## 💡 Overview
+Snapzy is a desktop-based clone of Snapchat built using **Object-Oriented Programming** in Java, along with MongoDB for data persistence. The application provides a simple interface for managing image-based "snaps" through a modern Swing-based GUI.
 
-## ⚙️ Features
-- 📤 Upload any image (JPG, PNG, etc.)
-- 🌗 Calculate and display average brightness
-- 🌐 Fully client-side — no backend required
-- 🚀 Deployed on [Vercel](https://vercel.com/) for instant live access
+## 🛠️ Features
+- 📸 **CRUD Snap Management**  
+  Create, read, update, and delete image posts stored in MongoDB.
 
-## 🧱 Tech Stack
-- **HTML5**: Structure
-- **CSS3**: Styling
-- **JavaScript**: Image processing & brightness computation
-- **Vercel**: Deployment
+- 🧰 **Technologies Used**  
+  - Java (OOP + Swing)
+  - MongoDB (NoSQL database)
+  - Java Swing (for GUI)
+
+- 🔁 **Object-Oriented Design**  
+  The application follows OOP principles such as encapsulation, abstraction, and modular design using classes like `Snap`, `SnapManager`, and `MongoConnector`.
+
+- 🧑‍💻 **User Interface**  
+  Built using Java Swing, the UI supports responsive snap interaction and navigation.
 
 ## 🚀 Getting Started
+
+### Prerequisites
+- Java JDK 17+  
+- MongoDB running locally  
+- Java IDE (IntelliJ / Eclipse / VS Code)
 
 ### Installation
 
 ```bash
-git clone https://github.com/alimohsin05/BrightnessCalculator.git
-cd BrightnessCalculator
+git clone https://github.com/alimohsin05/Snapzy.git
+cd Snapzy
